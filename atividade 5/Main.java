@@ -9,7 +9,7 @@ public class Main {
         System.out.println();
         
         if (e1.getdisciplina().equals(p1.getDisciplina())) {
-            System.out.println(e1.getNome() + " está tendo aula com o professor " + p1.getNome() + ".");
+            System.out.println(e1.getNome() + " está tendo uma aula com o professor " + p1.getNome() + ".");
         } else {
             e1.realizarAtividade();
             p1.realizarAtividade();
